@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
   <title>Javier Gutierrez</title>
   
-  <!-- Importación de tipografía caligráfica similar al logo desde Google Fonts -->
+  <!--Tipografia -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
   <style>
-    /* Fondo general a negro y texto claro */
     body {
       background-color: #000000;
       color: #ffffff;
@@ -18,8 +17,6 @@
       margin: 0;
       padding: 0;
     }
-
-    /* Estilo para el título tipo logo/cursiva elegante */
     .titulo-louboutin {
       font-family: 'Great Vibes', cursive;
       font-size: 38px;
@@ -28,8 +25,6 @@
       color: #f5f5f5;
       letter-spacing: 1px;
     }
-
-    /* Header dividido en 3 secciones */
     header {
       display: grid;
       grid-template-columns: 1fr auto 1fr;
@@ -38,22 +33,16 @@
       padding: 15px 20px;
       border-bottom: 2px solid #333333;
     }
-
-    /* División 1: Título y Navegación */
     .header-col-left {
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
-
-    /* División 2: Separador central */
     .header-col-center {
       border-left: 2px solid #6B1D2F;
       height: 80%;
       margin: 0 20px;
     }
-
-    /* División 3: Contenedor del Logo */
     .header-col-right {
       display: flex;
       justify-content: flex-end;
@@ -123,8 +112,6 @@
       box-sizing: border-box;
       border: 1px solid #222222;
     }
-
-    /* Galería de imágenes en Modelos */
     .galeria-modelos {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -140,8 +127,6 @@
       text-align: center;
       transition: all 0.3s ease;
     }
-
-    /* Efecto visual al pasar el cursor sobre las tarjetas */
     .tarjeta-modelo:hover {
       transform: translateY(-5px);
       border-color: #6B1D2F;
@@ -173,7 +158,6 @@
 
 <body>
   <header>
-    <!-- División 1: Título estilizado y Menú -->
     <div class="header-col-left">
       <h1 class="titulo-louboutin">Style, puissance et distinction</h1>
       <nav class="barra-navegacion">
@@ -182,11 +166,7 @@
         <a href="Javier - 3.html" class="boton-nav activo">Calzado de mujer</a>
       </nav>
     </div>
-
-    <!-- División 2: Separador visual -->
     <div class="header-col-center"></div>
-
-    <!-- División 3: Espacio exclusivo para el Logo -->
     <div class="header-col-right">
       <img src="Imagenes/christian-louboutin.svg" alt="logo de mi sitio web" class="logo-cabecera">
     </div>
@@ -205,22 +185,22 @@
         
         <div class="galeria-modelos">
           <div class="tarjeta-modelo">
-            <img src="Imagenes/m1.jpg" alt="Modelo 1">
+            <img src="Imagenes/m1.jpg" alt="Tacon1">
             <p>Christian Louboutin Kate patent leather pumps Black</p>
             <p>$12,804mx</p>
           </div>
           <div class="tarjeta-modelo">
-            <img src="Imagenes/m22.jpg" alt="Modelo 2">
+            <img src="Imagenes/m22.jpg" alt="Tacon2">
             <p>Christian Louboutin Kate 85 patent leather pumps Beige</p>
             <p>$12,804mx</p>
           </div>
           <div class="tarjeta-modelo">
-            <img src="Imagenes/m3.jpg" alt="Modelo 3">
+            <img src="Imagenes/m3.jpg" alt="Tacon3">
             <p>Christian Louboutin Follies Strass embellished mesh pumps Gray</p>
             <p>$19,779mx</p>
           </div>
           <div class="tarjeta-modelo">
-            <img src="Imagenes/44.jpg" alt="Italia Roma">
+            <img src="Imagenes/44.jpg" alt="Tacon4">
             <p>Christian Louboutin La Pigalle patent pumps Red</p>
             <p>$15,465mx</p>
           </div>
@@ -231,7 +211,7 @@
   </main>
 
   <footer>
-    <p>Pie de página</p>
+    <p> @christianlouboutin</p>
   </footer>
 </body>
 </html>
